@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		181423052509D634001C79A0 /* GLESUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 181422FF2509D633001C79A0 /* GLESUtils.m */; };
-		181423062509D634001C79A0 /* GLESMath.c in Sources */ = {isa = PBXBuildFile; fileRef = 181423012509D633001C79A0 /* GLESMath.c */; };
+		18263804250B4E8C001BF435 /* GLESUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 182637FE250B4E8C001BF435 /* GLESUtils.m */; };
+		18263805250B4E8C001BF435 /* GLESMath.c in Sources */ = {isa = PBXBuildFile; fileRef = 18263800250B4E8C001BF435 /* GLESMath.c */; };
 		1831B0822508821B009C53D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1831B0812508821B009C53D7 /* AppDelegate.m */; };
 		1831B0852508821B009C53D7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1831B0842508821B009C53D7 /* SceneDelegate.m */; };
 		1831B0882508821B009C53D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1831B0872508821B009C53D7 /* ViewController.m */; };
@@ -41,12 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		181422FF2509D633001C79A0 /* GLESUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLESUtils.m; sourceTree = "<group>"; };
-		181423002509D633001C79A0 /* Quaternion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quaternion.h; sourceTree = "<group>"; };
-		181423012509D633001C79A0 /* GLESMath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLESMath.c; sourceTree = "<group>"; };
-		181423022509D633001C79A0 /* GLESUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLESUtils.h; sourceTree = "<group>"; };
-		181423032509D633001C79A0 /* Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
-		181423042509D633001C79A0 /* GLESMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLESMath.h; sourceTree = "<group>"; };
+		182637FE250B4E8C001BF435 /* GLESUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLESUtils.m; sourceTree = "<group>"; };
+		182637FF250B4E8C001BF435 /* Quaternion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quaternion.h; sourceTree = "<group>"; };
+		18263800250B4E8C001BF435 /* GLESMath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLESMath.c; sourceTree = "<group>"; };
+		18263801250B4E8C001BF435 /* GLESUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLESUtils.h; sourceTree = "<group>"; };
+		18263802250B4E8C001BF435 /* Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
+		18263803250B4E8C001BF435 /* GLESMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLESMath.h; sourceTree = "<group>"; };
 		1831B07D2508821B009C53D7 /* 001--GLSL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "001--GLSL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1831B0802508821B009C53D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1831B0812508821B009C53D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -96,18 +96,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		181422FE2509D633001C79A0 /* Utils */ = {
+		182637FD250B4E8C001BF435 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				181422FF2509D633001C79A0 /* GLESUtils.m */,
-				181423002509D633001C79A0 /* Quaternion.h */,
-				181423012509D633001C79A0 /* GLESMath.c */,
-				181423022509D633001C79A0 /* GLESUtils.h */,
-				181423032509D633001C79A0 /* Vector.h */,
-				181423042509D633001C79A0 /* GLESMath.h */,
+				182637FE250B4E8C001BF435 /* GLESUtils.m */,
+				182637FF250B4E8C001BF435 /* Quaternion.h */,
+				18263800250B4E8C001BF435 /* GLESMath.c */,
+				18263801250B4E8C001BF435 /* GLESUtils.h */,
+				18263802250B4E8C001BF435 /* Vector.h */,
+				18263803250B4E8C001BF435 /* GLESMath.h */,
 			);
-			name = Utils;
-			path = "../../../../../../../Downloads/20190612--视觉班OpenGL ES 第14次课--GLSL 渲染立体图像&索引绘图/视觉班学员资料 V014/视觉班学员资料 V014/02 胖C源码/001--GLSL三角形变换/001--GLSL三角形变换/Utils";
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		1831B0742508821B009C53D7 = {
@@ -133,7 +132,7 @@
 		1831B07F2508821B009C53D7 /* 001--GLSL */ = {
 			isa = PBXGroup;
 			children = (
-				181422FE2509D633001C79A0 /* Utils */,
+				182637FD250B4E8C001BF435 /* Utils */,
 				1831B0802508821B009C53D7 /* AppDelegate.h */,
 				1831B0812508821B009C53D7 /* AppDelegate.m */,
 				1831B0832508821B009C53D7 /* SceneDelegate.h */,
@@ -305,10 +304,10 @@
 			files = (
 				1831B0882508821B009C53D7 /* ViewController.m in Sources */,
 				1831B0822508821B009C53D7 /* AppDelegate.m in Sources */,
-				181423062509D634001C79A0 /* GLESMath.c in Sources */,
+				18263805250B4E8C001BF435 /* GLESMath.c in Sources */,
 				1831B0932508821D009C53D7 /* main.m in Sources */,
 				1831B0852508821B009C53D7 /* SceneDelegate.m in Sources */,
-				181423052509D634001C79A0 /* GLESUtils.m in Sources */,
+				18263804250B4E8C001BF435 /* GLESUtils.m in Sources */,
 				1831B0B725088460009C53D7 /* YZView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
