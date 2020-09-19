@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="GLKView">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e2W-9i-XAh">
+                                <rect key="frame" x="30" y="692" width="98" height="70"/>
+                                <color key="backgroundColor" red="0.98823529409999999" green="0.76078431369999999" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="G75-cO-ZXv"/>
+                                </constraints>
+                                <state key="normal" title="X轴"/>
+                                <connections>
+                                    <action selector="handleX:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GA8-mz-goO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P32-Ed-Okp">
+                                <rect key="frame" x="286" y="692" width="98" height="70"/>
+                                <color key="backgroundColor" red="0.98823529409999999" green="0.76078431369999999" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="gyo-Wi-c7e"/>
+                                </constraints>
+                                <state key="normal" title="Z轴"/>
+                                <connections>
+                                    <action selector="handleZ:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Zo-zs-CoO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KYA-1C-WrW">
+                                <rect key="frame" x="158" y="692" width="98" height="70"/>
+                                <color key="backgroundColor" red="0.98823529409999999" green="0.76078431369999999" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="eOd-p5-K0j"/>
+                                </constraints>
+                                <state key="normal" title="Y轴"/>
+                                <connections>
+                                    <action selector="handleY:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YeB-bG-zRl"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="P32-Ed-Okp" firstAttribute="height" secondItem="e2W-9i-XAh" secondAttribute="height" id="1CI-K9-SPc"/>
+                            <constraint firstItem="e2W-9i-XAh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="20X-qI-ibL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="e2W-9i-XAh" secondAttribute="bottom" constant="100" id="MjJ-05-hya"/>
+                            <constraint firstItem="P32-Ed-Okp" firstAttribute="bottom" secondItem="e2W-9i-XAh" secondAttribute="bottom" id="Sy3-7G-7de"/>
+                            <constraint firstItem="KYA-1C-WrW" firstAttribute="bottom" secondItem="e2W-9i-XAh" secondAttribute="bottom" id="VcO-dr-IGX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="P32-Ed-Okp" secondAttribute="trailing" constant="30" id="W4b-pB-GAX"/>
+                            <constraint firstItem="P32-Ed-Okp" firstAttribute="width" secondItem="e2W-9i-XAh" secondAttribute="width" id="hn8-vd-gG8"/>
+                            <constraint firstItem="P32-Ed-Okp" firstAttribute="leading" secondItem="KYA-1C-WrW" secondAttribute="trailing" constant="30" id="lgN-cn-eGp"/>
+                            <constraint firstItem="KYA-1C-WrW" firstAttribute="leading" secondItem="e2W-9i-XAh" secondAttribute="trailing" constant="30" id="r8p-pp-bOL"/>
+                            <constraint firstItem="KYA-1C-WrW" firstAttribute="width" secondItem="e2W-9i-XAh" secondAttribute="width" id="swM-8J-3CI"/>
+                            <constraint firstItem="KYA-1C-WrW" firstAttribute="height" secondItem="e2W-9i-XAh" secondAttribute="height" id="y0c-pa-sAv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="96"/>
+        </scene>
+    </scenes>
+</document>

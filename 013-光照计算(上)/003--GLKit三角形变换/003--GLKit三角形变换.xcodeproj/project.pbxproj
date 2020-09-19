@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1801FA7E2514988200693980 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1801FA7D2514988200693980 /* AppDelegate.m */; };
+		1801FA812514988200693980 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1801FA802514988200693980 /* SceneDelegate.m */; };
+		1801FA842514988200693980 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1801FA832514988200693980 /* ViewController.m */; };
+		1801FA872514988200693980 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1801FA852514988200693980 /* Main.storyboard */; };
+		1801FA892514988400693980 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1801FA882514988400693980 /* Assets.xcassets */; };
+		1801FA8C2514988400693980 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1801FA8A2514988400693980 /* LaunchScreen.storyboard */; };
+		1801FA8F2514988400693980 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1801FA8E2514988400693980 /* main.m */; };
+		1801FA992514988400693980 /* _03__GLKit_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1801FA982514988400693980 /* _03__GLKit_____Tests.m */; };
+		1801FAA42514988400693980 /* _03__GLKit_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1801FAA32514988400693980 /* _03__GLKit_____UITests.m */; };
+		189A90AA25159E6500B8413D /* demo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 189A90A925159E6500B8413D /* demo.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1801FA952514988400693980 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1801FA712514988200693980 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1801FA782514988200693980;
+			remoteInfo = "003--GLKit三角形变换";
+		};
+		1801FAA02514988400693980 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1801FA712514988200693980 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1801FA782514988200693980;
+			remoteInfo = "003--GLKit三角形变换";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1801FA792514988200693980 /* 003--GLKit三角形变换.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "003--GLKit三角形变换.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1801FA7C2514988200693980 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1801FA7D2514988200693980 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1801FA7F2514988200693980 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		1801FA802514988200693980 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		1801FA822514988200693980 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1801FA832514988200693980 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1801FA862514988200693980 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1801FA882514988400693980 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1801FA8B2514988400693980 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1801FA8D2514988400693980 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1801FA8E2514988400693980 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1801FA942514988400693980 /* 003--GLKit三角形变换Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "003--GLKit三角形变换Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1801FA982514988400693980 /* _03__GLKit_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_03__GLKit_____Tests.m"; sourceTree = "<group>"; };
+		1801FA9A2514988400693980 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1801FA9F2514988400693980 /* 003--GLKit三角形变换UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "003--GLKit三角形变换UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1801FAA32514988400693980 /* _03__GLKit_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_03__GLKit_____UITests.m"; sourceTree = "<group>"; };
+		1801FAA52514988400693980 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189A90A925159E6500B8413D /* demo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = demo.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1801FA762514988200693980 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1801FA912514988400693980 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1801FA9C2514988400693980 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1801FA702514988200693980 = {
+			isa = PBXGroup;
+			children = (
+				1801FA7B2514988200693980 /* 003--GLKit三角形变换 */,
+				1801FA972514988400693980 /* 003--GLKit三角形变换Tests */,
+				1801FAA22514988400693980 /* 003--GLKit三角形变换UITests */,
+				1801FA7A2514988200693980 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1801FA7A2514988200693980 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1801FA792514988200693980 /* 003--GLKit三角形变换.app */,
+				1801FA942514988400693980 /* 003--GLKit三角形变换Tests.xctest */,
+				1801FA9F2514988400693980 /* 003--GLKit三角形变换UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1801FA7B2514988200693980 /* 003--GLKit三角形变换 */ = {
+			isa = PBXGroup;
+			children = (
+				189A90A925159E6500B8413D /* demo.jpg */,
+				1801FA7C2514988200693980 /* AppDelegate.h */,
+				1801FA7D2514988200693980 /* AppDelegate.m */,
+				1801FA7F2514988200693980 /* SceneDelegate.h */,
+				1801FA802514988200693980 /* SceneDelegate.m */,
+				1801FA822514988200693980 /* ViewController.h */,
+				1801FA832514988200693980 /* ViewController.m */,
+				1801FA852514988200693980 /* Main.storyboard */,
+				1801FA882514988400693980 /* Assets.xcassets */,
+				1801FA8A2514988400693980 /* LaunchScreen.storyboard */,
+				1801FA8D2514988400693980 /* Info.plist */,
+				1801FA8E2514988400693980 /* main.m */,
+			);
+			path = "003--GLKit三角形变换";
+			sourceTree = "<group>";
+		};
+		1801FA972514988400693980 /* 003--GLKit三角形变换Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1801FA982514988400693980 /* _03__GLKit_____Tests.m */,
+				1801FA9A2514988400693980 /* Info.plist */,
+			);
+			path = "003--GLKit三角形变换Tests";
+			sourceTree = "<group>";
+		};
+		1801FAA22514988400693980 /* 003--GLKit三角形变换UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1801FAA32514988400693980 /* _03__GLKit_____UITests.m */,
+				1801FAA52514988400693980 /* Info.plist */,
+			);
+			path = "003--GLKit三角形变换UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1801FA782514988200693980 /* 003--GLKit三角形变换 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1801FAA82514988400693980 /* Build configuration list for PBXNativeTarget "003--GLKit三角形变换" */;
+			buildPhases = (
+				1801FA752514988200693980 /* Sources */,
+				1801FA762514988200693980 /* Frameworks */,
+				1801FA772514988200693980 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "003--GLKit三角形变换";
+			productName = "003--GLKit三角形变换";
+			productReference = 1801FA792514988200693980 /* 003--GLKit三角形变换.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1801FA932514988400693980 /* 003--GLKit三角形变换Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1801FAAB2514988400693980 /* Build configuration list for PBXNativeTarget "003--GLKit三角形变换Tests" */;
+			buildPhases = (
+				1801FA902514988400693980 /* Sources */,
+				1801FA912514988400693980 /* Frameworks */,
+				1801FA922514988400693980 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1801FA962514988400693980 /* PBXTargetDependency */,
+			);
+			name = "003--GLKit三角形变换Tests";
+			productName = "003--GLKit三角形变换Tests";
+			productReference = 1801FA942514988400693980 /* 003--GLKit三角形变换Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1801FA9E2514988400693980 /* 003--GLKit三角形变换UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1801FAAE2514988400693980 /* Build configuration list for PBXNativeTarget "003--GLKit三角形变换UITests" */;
+			buildPhases = (
+				1801FA9B2514988400693980 /* Sources */,
+				1801FA9C2514988400693980 /* Frameworks */,
+				1801FA9D2514988400693980 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1801FAA12514988400693980 /* PBXTargetDependency */,
+			);
+			name = "003--GLKit三角形变换UITests";
+			productName = "003--GLKit三角形变换UITests";
+			productReference = 1801FA9F2514988400693980 /* 003--GLKit三角形变换UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1801FA712514988200693980 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "张义镇";
+				TargetAttributes = {
+					1801FA782514988200693980 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					1801FA932514988400693980 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 1801FA782514988200693980;
+					};
+					1801FA9E2514988400693980 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 1801FA782514988200693980;
+					};
+				};
+			};
+			buildConfigurationList = 1801FA742514988200693980 /* Build configuration list for PBXProject "003--GLKit三角形变换" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1801FA702514988200693980;
+			productRefGroup = 1801FA7A2514988200693980 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1801FA782514988200693980 /* 003--GLKit三角形变换 */,
+				1801FA932514988400693980 /* 003--GLKit三角形变换Tests */,
+				1801FA9E2514988400693980 /* 003--GLKit三角形变换UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1801FA772514988200693980 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189A90AA25159E6500B8413D /* demo.jpg in Resources */,
+				1801FA8C2514988400693980 /* LaunchScreen.storyboard in Resources */,
+				1801FA892514988400693980 /* Assets.xcassets in Resources */,
+				1801FA872514988200693980 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1801FA922514988400693980 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1801FA9D2514988400693980 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1801FA752514988200693980 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1801FA842514988200693980 /* ViewController.m in Sources */,
+				1801FA7E2514988200693980 /* AppDelegate.m in Sources */,
+				1801FA8F2514988400693980 /* main.m in Sources */,
+				1801FA812514988200693980 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1801FA902514988400693980 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1801FA992514988400693980 /* _03__GLKit_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1801FA9B2514988400693980 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1801FAA42514988400693980 /* _03__GLKit_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1801FA962514988400693980 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1801FA782514988200693980 /* 003--GLKit三角形变换 */;
+			targetProxy = 1801FA952514988400693980 /* PBXContainerItemProxy */;
+		};
+		1801FAA12514988400693980 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1801FA782514988200693980 /* 003--GLKit三角形变换 */;
+			targetProxy = 1801FAA02514988400693980 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1801FA852514988200693980 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1801FA862514988200693980 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1801FA8A2514988400693980 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1801FA8B2514988400693980 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1801FAA62514988400693980 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1801FAA72514988400693980 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1801FAA92514988400693980 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZDK27685C2;
+				INFOPLIST_FILE = "003--GLKit三角形变换/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zyizyiz.-03--GLKit-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1801FAAA2514988400693980 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZDK27685C2;
+				INFOPLIST_FILE = "003--GLKit三角形变换/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zyizyiz.-03--GLKit-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1801FAAC2514988400693980 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZDK27685C2;
+				INFOPLIST_FILE = "003--GLKit三角形变换Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zyizyiz.-03--GLKit-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/003--GLKit三角形变换.app/003--GLKit三角形变换";
+			};
+			name = Debug;
+		};
+		1801FAAD2514988400693980 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZDK27685C2;
+				INFOPLIST_FILE = "003--GLKit三角形变换Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zyizyiz.-03--GLKit-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/003--GLKit三角形变换.app/003--GLKit三角形变换";
+			};
+			name = Release;
+		};
+		1801FAAF2514988400693980 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZDK27685C2;
+				INFOPLIST_FILE = "003--GLKit三角形变换UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zyizyiz.-03--GLKit-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "003--GLKit三角形变换";
+			};
+			name = Debug;
+		};
+		1801FAB02514988400693980 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZDK27685C2;
+				INFOPLIST_FILE = "003--GLKit三角形变换UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zyizyiz.-03--GLKit-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "003--GLKit三角形变换";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1801FA742514988200693980 /* Build configuration list for PBXProject "003--GLKit三角形变换" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1801FAA62514988400693980 /* Debug */,
+				1801FAA72514988400693980 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1801FAA82514988400693980 /* Build configuration list for PBXNativeTarget "003--GLKit三角形变换" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1801FAA92514988400693980 /* Debug */,
+				1801FAAA2514988400693980 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1801FAAB2514988400693980 /* Build configuration list for PBXNativeTarget "003--GLKit三角形变换Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1801FAAC2514988400693980 /* Debug */,
+				1801FAAD2514988400693980 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1801FAAE2514988400693980 /* Build configuration list for PBXNativeTarget "003--GLKit三角形变换UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1801FAAF2514988400693980 /* Debug */,
+				1801FAB02514988400693980 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1801FA712514988200693980 /* Project object */;
+}
